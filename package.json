@@ -1,0 +1,12 @@
+{
+  "name": "automation-with-playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test"
+ 
+  },
+  "author": "LayMui",
+  "license": "ISC"
+}
