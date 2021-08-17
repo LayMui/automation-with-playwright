@@ -18,11 +18,16 @@ export class AgodaHomePage {
     await this.page.goto('https://www.agoda.com/');
   }
 
+  async takeScreenShot(file) {
+    await this.page.screenshot({ path: file });
+  }
+
   async selectHotelsAndHomes(keyword) {
     await this.page.click(this.HotelAndHomes);
     await this.page.fill('css=[data-selenium=textInput]', keyword, 'Enter');
    // await this.page.click('css=[data-element-date=check-in-box]');
    await this.page.click('css=[data-selenium=searchButton]');
+   
   }
 
   async selectPrivateStay() {

@@ -8,4 +8,3 @@
 - ["Run test in parallel test"] npx playwright test
 
 Todo:
-- [Add cucumber](https://github.com/cucumber/playwright.js)
